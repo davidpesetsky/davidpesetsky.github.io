@@ -2,12 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: >
+<p>Ferrari P. Ward Professor of Modern Languages and Linguistics</p>
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>Linguistics and Philosophy<br>
     32-D862 MIT<br>
