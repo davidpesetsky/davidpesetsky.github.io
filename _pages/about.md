@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: "Ferrari P. Ward Professor of Modern Languages and Linguistics"
+subtitle: "<b>Ferrari P. Ward Professor of Modern Languages and Linguistics</b>"
 
 profile:
   align: right
