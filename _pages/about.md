@@ -9,8 +9,8 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Department of Linguistics and Philosophy</p>
-    <p>Massachusetts Institute of Technology</p>
+    <p>Dept. of Linguistics and Philosophy</p>
+    <p>MIT</p>
     <p>32-D862 (Stata Center)</p>
     <p>32 Vassar Street</p>
     <p>Cambridge, MA 02139 USA</p>
