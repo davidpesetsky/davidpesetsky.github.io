@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-<p>Ferrari P. Ward Professor of Modern Languages and Linguistics</p>
+Ferrari P. Ward Professor of Modern Languages and Linguistics
 
 profile:
   align: right
