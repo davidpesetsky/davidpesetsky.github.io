@@ -9,10 +9,10 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p><small><small>Dept. of Linguistics & Philosophy</small></small><br>
+    <p><small><small>Dept. of Linguistics & Philosophy</small><br>
     32-D862 MIT<br>
     32 Vassar Street<br>
-    Cambridge, MA 02139 USA</p>
+    Cambridge, MA 02139 USA</small></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
