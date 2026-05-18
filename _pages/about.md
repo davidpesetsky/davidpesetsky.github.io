@@ -28,7 +28,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<i>As is obvious, this website is still being built.  The current content is mostly lorem ipsum-ish stuff that comes with the website theme. I hope to finish the task of building it over the coming weeks this summer.</i> [05/2026]
+<small><small><i>As is obvious, this website is still being built.  The current content is mostly lorem ipsum-ish stuff that comes with the website theme. I hope to finish the task of building it over the coming weeks this summer.</i> [05/2026]</small></small>
 
 I am a linguist specializing in syntax — the study of the laws that govern how sentences are composed from their constituent parts.
 
