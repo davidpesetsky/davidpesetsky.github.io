@@ -32,7 +32,7 @@ latest_posts:
 
 I am a linguist specializing in syntax — the study of the laws that govern how sentences are composed from their constituent parts.
 
-Over the years, I have also made some contributions to the study of morphology (word structure), phonology (sound structure) language acquisition, and the interaction of syntax with semantics (how meanings are computed) -- as well as sadly unpublished (entirely my fault) but frequently cited joint work with Jonah Katz on the relation between linguistic syntax and the syntax of tonal music. 
+Over the years, I have also made some contributions to the study of morphology (word structure), phonology (sound structure), language acquisition, and the interaction of syntax with semantics (how meanings are computed) -- as well as unpublished (entirely my fault) but frequently cited joint work with Jonah Katz on the relation between linguistic syntax and the syntax of tonal music. 
 
 Recent projects include the development of a maximally sparse theory of argument alternations including passive, and joint work with Ido Bebaji-Elhadad analyzing phrasal ellipsis as a consequence of extending the silence of a null head to include its complement as well (<q>E-extension</q>).
 
