@@ -28,8 +28,14 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<i>As is obvious, this website is still being built.  The current content is mostly lorem ipsum stuff that comes with the website theme. I hope to finish the task of building it over the coming weeks this summer. [05/2026]</i>
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am a linguist specializing in syntax — the study of the laws that govern how sentences are composed from their constituent parts. R
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Over the years, I have also made some contributions to the study of morphology (word structure), phonology (sound structure) language acquisition, and the interaction of syntax with semantics (how meanings are computed) -- as well as sadly unpublished (entirely my fault) but frequently cited joint work with Jonah Katz on the relation between linguistic syntax and the syntax of tonal music.
+
+ecent projects include the development of a  maximally sparse theory of argument alternations including passive, and joint work with Ido Bebaji-Elhadad on ellipsis as a simple consequence of extending a silence that would otherwise have been much smaller.  
+
+A major project of the last decade that I hope to complete this year suggests that what lies behind the infamous and seemingly trivial <i>that>/i>-trace effect actually explains the very existence in the first place of multiple clause sizes in the languages of world -- and what lies behind all of this is a simple dissimilatory process in syntax. This result, if it stands up, reaffirms a central motivating conviction of modern linguistics, so obvious to linguists that we tend to forget how shocking an idea it is to others: the conviction that language (despite all its apparent diversity) is law-governed, that its complexities present us with puzzles that have solutions -- solutions that themselves lead us to discover deeper puzzles that also have solutions worth seeking.  In short: that there exists a science of language that not only poses but also (when we're lucky) answers <i>why</i> questions about the facts of individual languages and language as a whole.
+
+Finally, I am also a dedicated amateur musician, playing both violin and viola.  For over three decades, I have been principal second violin in the Newton (MA)-based New Philharmonia Orchestra and more recently have also played with the Brookline Symphony -- and get great pleasure from playing chamber music as well.  For the last five summers, I have attended the wonderful "CMC East" chamber music conference at Colgate as a violinist and violist.
