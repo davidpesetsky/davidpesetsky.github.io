@@ -2,14 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: "<b>Ferrari P. Ward Professor of Modern Languages and Linguistics</b>"
+subtitle: "<b>Ferrari P. Ward Professor of Modern Languages and Linguistics<br>Department of Linguistics and Philosophy<br>Massachusetts Institute of Technology</b>"
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p><small><small>Dept. of Linguistics & Philosophy</small><br>
+    <p>
     32-D862 MIT<br>
     32 Vassar Street<br>
     Cambridge, MA 02139 USA</small></p>
