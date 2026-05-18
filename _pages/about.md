@@ -30,11 +30,11 @@ latest_posts:
 
 <i>As is obvious, this website is still being built.  The current content is mostly lorem ipsum stuff that comes with the website theme. I hope to finish the task of building it over the coming weeks this summer. [05/2026]</i>
 
-I am a linguist specializing in syntax — the study of the laws that govern how sentences are composed from their constituent parts. R
+I am a linguist specializing in syntax — the study of the laws that govern how sentences are composed from their constituent parts.
 
-Over the years, I have also made some contributions to the study of morphology (word structure), phonology (sound structure) language acquisition, and the interaction of syntax with semantics (how meanings are computed) -- as well as sadly unpublished (entirely my fault) but frequently cited joint work with Jonah Katz on the relation between linguistic syntax and the syntax of tonal music.
+Over the years, I have also made some contributions to the study of morphology (word structure), phonology (sound structure) language acquisition, and the interaction of syntax with semantics (how meanings are computed) -- as well as sadly unpublished (entirely my fault) but frequently cited joint work with Jonah Katz on the relation between linguistic syntax and the syntax of tonal music. 
 
-ecent projects include the development of a  maximally sparse theory of argument alternations including passive, and joint work with Ido Bebaji-Elhadad on ellipsis as a simple consequence of extending a silence that would otherwise have been much smaller.  
+Recent projects include the development of a  maximally sparse theory of argument alternations including passive, and joint work with Ido Bebaji-Elhadad analysing phrasal ellipsis as a consequence of extending the silence of a null head to include its complement as well ("E-extension").
 
 A major project of the last decade that I hope to complete this year suggests that what lies behind the infamous and seemingly trivial <i>that>/i>-trace effect actually explains the very existence in the first place of multiple clause sizes in the languages of world -- and what lies behind all of this is a simple dissimilatory process in syntax. This result, if it stands up, reaffirms a central motivating conviction of modern linguistics, so obvious to linguists that we tend to forget how shocking an idea it is to others: the conviction that language (despite all its apparent diversity) is law-governed, that its complexities present us with puzzles that have solutions -- solutions that themselves lead us to discover deeper puzzles that also have solutions worth seeking.  In short: that there exists a science of language that not only poses but also (when we're lucky) answers <i>why</i> questions about the facts of individual languages and language as a whole.
 
