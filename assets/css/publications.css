@@ -34,7 +34,7 @@ ol.bibliography li {
 .bibliography .title {
   font-style: normal !important;
   font-weight: bold !important;
-  quotes: yes
+  quotes: yes !important;
 }
 
 /* Journal / booktitle: italics */
