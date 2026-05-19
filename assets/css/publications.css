@@ -1,7 +1,7 @@
 /* ── 1. Suppress all al-folio chrome ───────────────────────────────────────── */
 
 /* Year group headings */
-/* .bibliography h2.year { display: none !important; } */
+.bibliography h2.year { display: none !important; }
 
 /* Numbered list → plain hanging-indent list */
 ol.bibliography {
