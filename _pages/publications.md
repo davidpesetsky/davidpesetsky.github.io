@@ -1,11 +1,3 @@
----
-layout: page
-permalink: /publications/
-title: publications
-nav: true
-nav_order: 2
----
-
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
