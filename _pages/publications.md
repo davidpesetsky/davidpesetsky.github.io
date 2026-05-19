@@ -8,42 +8,83 @@ nav_order: 2
 ---
 
 <style>
-/* ── Hide year headings and numbered counters ── */
-.bibliography h2 { display: none !important; }
-ol.bibliography    { list-style: none !important; padding-left: 0 !important; }
-ol.bibliography li { counter-increment: none !important; }
+/* ── 1. Suppress all al-folio chrome ───────────────────────────────────────── */
+
+/* Year group headings */
+.bibliography h2.year { display: none !important; }
+
+/* Numbered list → plain hanging-indent list */
+ol.bibliography {
+  list-style: none !important;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+ol.bibliography li::marker,
 ol.bibliography li::before { content: none !important; }
 
-/* ── Tighten spacing ── */
-ol.bibliography li {
-  margin-bottom: 0.55rem !important;
-  padding-bottom: 0.55rem !important;
-  border-bottom: 1px solid var(--global-divider-color, #e8e8e8);
-}
-ol.bibliography li:last-child { border-bottom: none; }
-
-/* ── Hide the thumbnail/preview column that adds blank space ── */
+/* Hide blank thumbnail column */
 .bibliography .col-sm-2.abbr { display: none !important; }
 
-/* ── DOI / HTML: show as plain inline links, not buttons ── */
-.bibliography .links a.btn {
+/* Hide the star / selected-paper badge */
+.bibliography .star-button { display: none !important; }
+
+/* ── 2. Entry spacing & hanging indent ─────────────────────────────────────── */
+
+ol.bibliography li {
+  padding-left: 2em !important;
+  text-indent: -2em !important;
+  margin-bottom: 0.6rem !important;
+  line-height: 1.55 !important;
+  font-size: 0.95rem !important;
+}
+
+/* ── 3. Typography ─────────────────────────────────────────────────────────── */
+
+/* Title: normal weight, no quotes (jekyll-scholar doesn't add quotes by default) */
+.bibliography .title {
+  font-style: normal !important;
+  font-weight: normal !important;
+}
+
+/* Journal / booktitle: italics */
+.bibliography .journal,
+.bibliography .booktitle,
+.bibliography em { font-style: italic !important; }
+
+/* Suppress large bold author line al-folio sometimes injects */
+.bibliography .author {
+  font-weight: normal !important;
+  font-size: inherit !important;
+}
+
+/* ── 4. DOI / HTML links as plain inline text, not buttons ─────────────────── */
+
+.bibliography .links {
+  display: inline !important;
+  margin: 0 !important;
+}
+
+.bibliography .links a.btn,
+.bibliography .links a {
   display: inline !important;
   padding: 0 !important;
-  margin: 0 !important;
+  margin: 0 0 0 0.3em !important;
   border: none !important;
   border-radius: 0 !important;
   background: none !important;
   box-shadow: none !important;
-  font-size: 0.85em !important;
+  font-size: inherit !important;
   color: var(--global-theme-color) !important;
   text-transform: none !important;
   letter-spacing: normal !important;
   font-weight: normal !important;
   line-height: inherit !important;
+  vertical-align: baseline !important;
 }
-.bibliography .links a.btn::before { content: "" }
-.bibliography .links a.btn + a.btn::before { content: " · " }
-.bibliography .links { margin-top: 0.15rem; }
+
+/* Separate multiple links with a dot */
+.bibliography .links a + a::before { content: " ·" !important; }
+
 </style>
 
 {% include bib_search.liquid %}
