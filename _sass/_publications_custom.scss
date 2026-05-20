@@ -94,3 +94,8 @@ ol.bibliography > li::marker {
   content: " · ";
   color: var(--global-text-color);
 }
+
+/* Hide the large year separator headings between entry groups */
+h2.bibliography {
+  display: none;
+}
