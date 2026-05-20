@@ -1,76 +1,146 @@
-/* ── 1. Suppress all al-folio chrome ───────────────────────────────────────── */
+/* ─────────────────────────────────────────────────────────────
+   CV-style publications list for al-folio
+   Goal: clean, hanging-indent reference list, no chrome
+   ───────────────────────────────────────────────────────────── */
 
-/* Year group headings */
-.bibliography h2.year { display: none !important; }
+/* 1. Hide al-folio chrome ─────────────────────────────────── */
 
-/* Numbered list → plain hanging-indent list */
-ol.bibliography {
-  list-style: none !important;
-  padding-left: 0 !important;
-  margin-left: 0 !important;
-}
-ol.bibliography li::marker,
-ol.bibliography li::before { content: none !important; }
-
-/* Hide blank thumbnail column */
-.bibliography .col-sm-2.abbr { display: none !important; }
-
-/* Hide the star / selected-paper badge */
-.bibliography .star-button { display: none !important; }
-
-/* ── 2. Entry spacing & hanging indent ─────────────────────────────────────── */
-
-ol.bibliography li {
-  padding-left: 2em !important;
-  text-indent: -2em !important;
-  margin-bottom: 0.6rem !important;
-  line-height: 1.55 !important;
-  font-size: 0.95rem !important;
+/* Year separator headings between groups of entries */
+.publications h2.year,
+.publications h2.bibliography,
+.bibliography h2,
+h2.year {
+  display: none;
 }
 
-/* ── 3. Typography ─────────────────────────────────────────────────────────── */
+/* Thumbnail / abbreviation column on the left of each entry */
+.bibliography .col-sm-2,
+.bibliography .preview,
+.bibliography .abbr {
+  display: none;
+}
 
-/* Title: normal weight, no quotes (jekyll-scholar doesn't add quotes by default) */
+/* If the entry uses a Bootstrap row, collapse it so the text spans full width */
+.bibliography .row {
+  display: block;
+  margin: 0;
+}
+.bibliography .col-sm-10,
+.bibliography [class*="col-sm-"] {
+  flex: none;
+  max-width: 100%;
+  width: 100%;
+  padding: 0;
+}
+
+/* Star / selected-paper badge */
+.bibliography .star,
+.bibliography .star-button,
+.bibliography .selected {
+  display: none;
+}
+
+/* "Abstract" / "BibTeX" expandable panels — hide the toggle buttons,
+   keep the panels collapsed. Remove this block if you want to keep them. */
+.bibliography .badge,
+.bibliography .abstract.hidden,
+.bibliography .bibtex.hidden {
+  display: none;
+}
+
+/* 2. List structure: plain hanging-indent list ─────────────── */
+
+ol.bibliography,
+ul.bibliography {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+ol.bibliography > li,
+ul.bibliography > li {
+  /* hanging indent: first line flush left, continuation lines indented */
+  padding-left: 2em;
+  text-indent: -2em;
+  margin: 0 0 0.7rem 0;
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+ol.bibliography > li::marker,
+ol.bibliography > li::before {
+  content: none;
+}
+
+/* 3. Typography inside an entry ────────────────────────────── */
+
+/* Author line: same size and weight as the rest, no all-caps, no bold block */
+.bibliography .author {
+  font-weight: normal;
+  font-size: inherit;
+  font-variant: normal;
+  text-transform: none;
+  display: inline;
+}
+
+/* Article / chapter titles: roman, no quotes, no bold */
 .bibliography .title {
-  font-style: normal !important;
-  font-weight: bold !important;
+  font-weight: normal;
+  font-style: normal;
+  quotes: none;
+}
+.bibliography .title::before,
+.bibliography .title::after {
+  content: none;
 }
 
-/* Journal / booktitle: italics */
+/* Journal names, book titles, proceedings — italic */
 .bibliography .journal,
 .bibliography .booktitle,
-.bibliography em { font-style: italic !important; }
-
-/* Suppress large bold author line al-folio sometimes injects */
-.bibliography .author {
-  font-weight: normal !important;
-  font-size: inherit !important;
+.bibliography .periodical,
+.bibliography em,
+.bibliography i {
+  font-style: italic;
 }
 
-/* ── 4. DOI / HTML links as plain inline text, not buttons ─────────────────── */
+/* 4. Links: inline plain text, not buttons ─────────────────── */
 
-.bibliography .links {
-  display: inline !important;
-  margin: 0 !important;
+.bibliography .links,
+.bibliography .links-container {
+  display: inline;
+  margin: 0;
+  padding: 0;
 }
 
+.bibliography .links a,
 .bibliography .links a.btn,
-.bibliography .links a {
-  display: inline !important;
-  padding: 0 !important;
-  margin: 0 0 0 0.3em !important;
-  border: none !important;
-  border-radius: 0 !important;
-  background: none !important;
-  box-shadow: none !important;
-  font-size: inherit !important;
-  color: var(--global-theme-color) !important;
-  text-transform: none !important;
-  letter-spacing: normal !important;
-  font-weight: normal !important;
-  line-height: inherit !important;
-  vertical-align: baseline !important;
+.bibliography a.btn {
+  display: inline;
+  padding: 0;
+  margin: 0 0 0 0.35em;
+  border: none;
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+  font-size: inherit;
+  font-weight: normal;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: inherit;
+  vertical-align: baseline;
+  color: var(--global-theme-color);
 }
 
-/* Separate multiple links with a dot */
-.bibliography .links a + a::before { content: " ·" !important; }
+.bibliography .links a:hover,
+.bibliography .links a.btn:hover {
+  text-decoration: underline;
+  background: none;
+  box-shadow: none;
+}
+
+/* Mild visual separator between successive links */
+.bibliography .links a + a::before {
+  content: " · ";
+  color: var(--global-text-color);
+  margin-right: 0.15em;
+}
