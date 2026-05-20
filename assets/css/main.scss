@@ -23,7 +23,7 @@
 @use "footer";
 @use "blog";
 @use "publications";
-@use "publications_custom";
+@import "publications_custom";
 @use "components";
 @use "utilities";
 
