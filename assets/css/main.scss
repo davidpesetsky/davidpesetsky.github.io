@@ -23,6 +23,7 @@
 @use "footer";
 @use "blog";
 @use "publications";
+@use "publications_custom";
 @use "components";
 @use "utilities";
 
@@ -36,6 +37,3 @@
 @use "font-awesome/brands";
 @use "font-awesome/solid";
 @use "font-awesome/regular";
-
-@use "publications";
-@use "publications_custom";
