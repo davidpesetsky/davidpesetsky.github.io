@@ -8,3 +8,7 @@ module.exports = {
     /^\.bibliography/,
   ],
 };
+safelist: {
+    standard: ['bibliography', 'star-button', 'abbr', 'links', 'btn', 'col-sm-2'],
+    greedy: [/^bibliography/, /^star-button/]
+  }
