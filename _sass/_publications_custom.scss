@@ -34,7 +34,7 @@ ol.bibliography li {
 
 /* Title: normal weight, no quotes (jekyll-scholar doesn't add quotes by default) */
 .bibliography .title {
-  font-style: normal !important;
+  font-style: italic !important;
   font-weight: bold !important;
 }
 
