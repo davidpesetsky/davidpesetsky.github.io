@@ -1,65 +1,17 @@
 /* ─────────────────────────────────────────────────────────────
-   CV-style publications list for al-folio
-   Goal: clean, hanging-indent reference list, no chrome
+   CV-style publications list
+   Targets the custom pub-row / pub-title / pub-authors / pub-venue
+   markup used in this repo (not stock al-folio's .bibliography).
    ───────────────────────────────────────────────────────────── */
 
-/* 1. Hide al-folio chrome ─────────────────────────────────── */
-
-/* Year separator headings between groups of entries */
-.publications h2.year,
-.publications h2.bibliography,
-.bibliography h2,
-h2.year {
-  display: none;
-}
-
-/* Thumbnail / abbreviation column on the left of each entry */
-.bibliography .col-sm-2,
-.bibliography .preview,
-.bibliography .abbr {
-  display: none;
-}
-
-/* If the entry uses a Bootstrap row, collapse it so the text spans full width */
-.bibliography .row {
-  display: block;
-  margin: 0;
-}
-.bibliography .col-sm-10,
-.bibliography [class*="col-sm-"] {
-  flex: none;
-  max-width: 100%;
-  width: 100%;
-  padding: 0;
-}
-
-/* Star / selected-paper badge */
-.bibliography .star,
-.bibliography .star-button,
-.bibliography .selected {
-  display: none;
-}
-
-/* "Abstract" / "BibTeX" expandable panels — hide the toggle buttons,
-   keep the panels collapsed. Remove this block if you want to keep them. */
-.bibliography .badge,
-.bibliography .abstract.hidden,
-.bibliography .bibtex.hidden {
-  display: none;
-}
-
-/* 2. List structure: plain hanging-indent list ─────────────── */
-
-ol.bibliography,
-ul.bibliography {
+/* List structure: plain hanging-indent list, no numbers */
+ol.bibliography {
   list-style: none;
   padding-left: 0;
   margin-left: 0;
 }
 
-ol.bibliography > li,
-ul.bibliography > li {
-  /* hanging indent: first line flush left, continuation lines indented */
+ol.bibliography > li {
   padding-left: 2em;
   text-indent: -2em;
   margin: 0 0 0.7rem 0;
@@ -67,80 +19,78 @@ ul.bibliography > li {
   font-size: 0.95rem;
 }
 
-ol.bibliography > li::marker,
-ol.bibliography > li::before {
+ol.bibliography > li::marker {
   content: none;
 }
 
-/* 3. Typography inside an entry ────────────────────────────── */
-
-/* Author line: same size and weight as the rest, no all-caps, no bold block */
-.bibliography .author {
-  font-weight: normal;
-  font-size: inherit;
-  font-variant: normal;
-  text-transform: none;
+/* The pub-row wrapper: let it flow as plain inline-block text
+   so the hanging indent on the <li> actually applies to the
+   whole entry. */
+.pub-row,
+.pub-row > .col-sm-auto {
   display: inline;
+  padding: 0;
+  margin: 0;
 }
 
-/* Article / chapter titles: roman, no quotes, no bold */
-.bibliography .title {
-  font-weight: normal;
-  font-style: normal;
-  quotes: none;
-}
-.bibliography .title::before,
-.bibliography .title::after {
-  content: none;
-}
-
-/* Journal names, book titles, proceedings — italic */
-.bibliography .journal,
-.bibliography .booktitle,
-.bibliography .periodical,
-.bibliography em,
-.bibliography i {
-  font-style: italic;
-}
-
-/* 4. Links: inline plain text, not buttons ─────────────────── */
-
-.bibliography .links,
-.bibliography .links-container {
+/* The four sub-blocks (title / authors / venue / links) are <div>s,
+   which are block-level by default and would each start a new line.
+   Flatten them to inline so the whole entry reads as one paragraph. */
+.pub-title,
+.pub-authors,
+.pub-venue,
+.pub-links {
   display: inline;
   margin: 0;
   padding: 0;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
 }
 
-.bibliography .links a,
-.bibliography .links a.btn,
-.bibliography a.btn {
+/* Punctuation between sub-blocks: a period and a space.
+   Skip the leading period on .pub-title (it's the first thing). */
+.pub-authors::before,
+.pub-venue::before,
+.pub-links::before {
+  content: ". ";
+}
+
+/* Title: bold so the reader can scan down the list by title.
+   (Drop the `font-weight: bold` if you want everything roman.) */
+.pub-title {
+  font-weight: bold;
+}
+
+/* Venue already wraps the journal/book name in <em>, which is
+   italic by default — nothing to do. Just make sure nothing
+   in the theme is un-italicizing it. */
+.pub-venue em {
+  font-style: italic;
+}
+
+/* Links: inline plain text, theme-colored, no button styling */
+.pub-links a {
   display: inline;
   padding: 0;
-  margin: 0 0 0 0.35em;
+  margin: 0;
   border: none;
-  border-radius: 0;
   background: none;
   box-shadow: none;
-  font-size: inherit;
+  border-radius: 0;
   font-weight: normal;
   text-transform: none;
   letter-spacing: normal;
-  line-height: inherit;
-  vertical-align: baseline;
   color: var(--global-theme-color);
+  text-decoration: none;
 }
 
-.bibliography .links a:hover,
-.bibliography .links a.btn:hover {
+.pub-links a:hover {
   text-decoration: underline;
-  background: none;
-  box-shadow: none;
 }
 
-/* Mild visual separator between successive links */
-.bibliography .links a + a::before {
+/* Multiple links on one entry: separate with a middle dot */
+.pub-links a + a::before {
   content: " · ";
   color: var(--global-text-color);
-  margin-right: 0.15em;
 }
