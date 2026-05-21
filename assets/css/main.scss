@@ -36,3 +36,10 @@
 @use "font-awesome/solid";
 @use "font-awesome/regular";
 @use "publications_custom";
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* Removes unwanted space at the bottom */
+}
