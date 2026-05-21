@@ -17,7 +17,7 @@
     {%- comment -%} Title {%- endcomment -%}
     <div class="pub-title">
       {%- if entry.url -%}
-        <a href="{{ entry.url }}">{{ entry.title }}</a>
+        <a href="{{ entry.url }}">{{- entry.title -}}</a>
       {%- else -%}
         {{ entry.title}}
       {%- endif -%}
@@ -52,9 +52,9 @@
 </div>
 
     {%- comment -%} Note {%- endcomment -%}
-    {%- if entry.note -%}
-    <div class="pub-note">{{ entry.note }}</div>
-    {%- endif -%}
+	{%- if entry.note -%}
+	<div class="pub-note">[{{- entry.note -}}]</div>
+	{%- endif -%}
 
     {%- comment -%} Inline links: DOI and HTML {%- endcomment -%}
     {%- assign has_links = false -%}

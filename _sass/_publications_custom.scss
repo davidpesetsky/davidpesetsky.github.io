@@ -51,6 +51,7 @@ ol.bibliography > li::marker {
 /* Punctuation between sub-blocks: a period and a space.
    Skip the leading period on .pub-title (it's the first thing). */
 .pub-authors::before,
+.pub-note:: before,
 .pub-venue::before {
   content: ". ";
 }
