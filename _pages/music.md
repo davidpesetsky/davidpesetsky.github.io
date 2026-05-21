@@ -17,4 +17,7 @@ My two most notable contributions to music:
 	<li><a href="\assets\pdf\April_1_Mahler_1.pdf">What Mahler meant with all that German:</a> written for and distributed at an April 1 rehearsal of Mahler's first symphony</li>
 	<li><a href="https://www.youtube.com/watch?v=Nbb539QZZXo">Subtitles for the film Lieutenant Kizhe (with music by Prokofiev)</a></li>
 </ul>
-<img src="\assets\img\HalePesetskyDresher.jpg" alt="with Ken Hale and Elan Dresher at Chomsky's 50th, 1978">
+
+![with Ken Hale and Elan Dresher at Chomsky's 50th, 1978](/assets/img/HalePesetskyDresher.jpg)
+{:.img-fluid}
+
