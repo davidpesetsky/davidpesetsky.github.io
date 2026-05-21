@@ -33,7 +33,11 @@
   {%- if entry.booktitle -%}
     {%- if entry.type == "incollection" or entry.type == "inbook" or entry.type == "inproceedings" -%}
       <em>In</em>
-      {%- if entry.editor %} {{ entry.editor }} (ed.),{% endif -%}
+      {%- if entry.editor -%}
+  {%- if entry.editor contains " and " %} {{ entry.editor }} (eds.),
+  {%- else %} {{ entry.editor }} (ed.),
+  {%- endif -%}
+{%- endif -%}
       <em>{{ entry.booktitle }}</em>
     {%- else -%}
       <em>{{ entry.booktitle }}</em>
