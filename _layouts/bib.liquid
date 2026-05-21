@@ -53,8 +53,8 @@
 
     {%- comment -%} Note {%- endcomment -%}
 	{%- if entry.note -%}
-	<div class="pub-note">[{{- entry.note -}}]</div>
-	{%- endif -%}
+<div class="pub-note">[{{ entry.note | markdownify | remove: '<p>' | remove: '</p>' | strip }}]</div>
+{%- endif -%}
 
     {%- comment -%} Inline links: DOI and HTML {%- endcomment -%}
     {%- assign has_links = false -%}
