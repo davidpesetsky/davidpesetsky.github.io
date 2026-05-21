@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: page
 permalink: /music/
 title: music
 description: violin, viola, and listener
