@@ -28,18 +28,24 @@
       {{ entry.author }}
     </div>
 
-    {%- comment -%} Venue + year {%- endcomment -%}
-    <div class="pub-venue">
-      {%- if entry.booktitle -%}
-        <em>{{ entry.booktitle }}</em>
-      {%- elsif entry.journal -%}
-        <em>{{ entry.journal }}</em>
-      {%- endif -%}
-      {%- if entry.volume -%}, {{ entry.volume }}{%- endif -%}
-      {%- if entry.number -%}({{ entry.number }}){%- endif -%}
-      {%- if entry.pages -%}, pp. {{ entry.pages }}{%- endif -%}
-      {%- if entry.year -%}, {{ entry.year }}{%- endif -%}.
-    </div>
+{%- comment -%} Venue + year {%- endcomment -%}
+<div class="pub-venue">
+  {%- if entry.booktitle -%}
+    {%- if entry.type == "incollection" or entry.type == "inbook" or entry.type == "inproceedings" -%}
+      <em>In</em>
+      {%- if entry.editor %} {{ entry.editor }} (ed.),{% endif -%}
+      <em>{{ entry.booktitle }}</em>
+    {%- else -%}
+      <em>{{ entry.booktitle }}</em>
+    {%- endif -%}
+  {%- elsif entry.journal -%}
+    <em>{{ entry.journal }}</em>
+  {%- endif -%}
+  {%- if entry.volume -%}, {{ entry.volume }}{%- endif -%}
+  {%- if entry.number -%}({{ entry.number }}){%- endif -%}
+  {%- if entry.pages -%}, pp. {{ entry.pages }}{%- endif -%}
+  {%- if entry.year -%}, {{ entry.year }}{%- endif -%}.
+</div>
 
     {%- comment -%} Note {%- endcomment -%}
     {%- if entry.note -%}
