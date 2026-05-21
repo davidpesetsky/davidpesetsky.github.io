@@ -60,6 +60,10 @@ ol.bibliography > li::marker {
   content: " ";
 }
 
+.pub-links::before {
+  content: " ";
+}
+
 /* Title: bold so the reader can scan down the list by title.
    (Drop the `font-weight: bold` if you want everything roman.) */
 .pub-title {
