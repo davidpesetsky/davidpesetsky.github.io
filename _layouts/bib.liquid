@@ -15,7 +15,7 @@
   <div class="col-sm-auto">
 
     {%- comment -%} Title {%- endcomment -%}
- <div class="pub-title">
+<div class="pub-title{% if entry.url %} pub-title-linked{% endif %}">
   {%- if entry.url -%}
     <a href="{{ entry.url }}">{{- entry.title | markdownify | remove: '<p>' | remove: '</p>' | strip -}}</a>
   {%- else -%}

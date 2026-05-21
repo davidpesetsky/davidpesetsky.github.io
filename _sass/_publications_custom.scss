@@ -65,9 +65,14 @@ ol.bibliography > li::marker {
   font-size: 0.95rem;
 }
 
-/* Title: bold so the reader can scan down the list by title.
+/* Title: bold when linked so the reader can scan down the list by title.
    (Drop the `font-weight: bold` if you want everything roman.) */
+
 .pub-title {
+  font-weight: normal;
+}
+
+.pub-title-linked {
   font-weight: bold;
 }
 
