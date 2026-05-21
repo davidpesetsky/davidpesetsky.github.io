@@ -34,8 +34,8 @@
     {%- if entry.type == "incollection" or entry.type == "inbook" or entry.type == "inproceedings" -%}
       In: 
       {%- if entry.editor -%}
-  {%- if entry.editor contains " and " %} {{ entry.editor }} (eds.),
-  {%- else %} {{ entry.editor }} (ed.),
+  {%- if entry.editor contains " and " %} {{ entry.editor }} (eds.), 
+  {%- else %} {{ entry.editor }} (ed.), 
   {%- endif -%}
 {%- endif -%}
       <em>{{ entry.booktitle }}</em>
