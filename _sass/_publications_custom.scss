@@ -61,7 +61,8 @@ ol.bibliography > li::marker {
 }
 
 .pub-links::before {
-  content: " ";
+  content: "\00a0";
+  font-size: 0.95rem;
 }
 
 /* Title: bold so the reader can scan down the list by title.
