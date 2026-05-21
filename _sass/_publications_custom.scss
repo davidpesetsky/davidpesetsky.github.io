@@ -98,3 +98,17 @@ ol.bibliography > li::marker {
 h2.bibliography {
   display: none;
 }
+
+/* Suppress whitespace between adjacent .pub-* blocks
+   so the ::before punctuation sits flush against the previous text. */
+.pub-row {
+  font-size: 0;
+}
+
+.pub-title,
+.pub-authors,
+.pub-venue,
+.pub-note,
+.pub-links {
+  font-size: 0.95rem;
+}
