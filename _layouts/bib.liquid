@@ -15,13 +15,13 @@
   <div class="col-sm-auto">
 
     {%- comment -%} Title {%- endcomment -%}
-    <div class="pub-title">
-      {%- if entry.url -%}
-        <a href="{{ entry.url }}">{{- entry.title -}}</a>
-      {%- else -%}
-        {{ entry.title}}
-      {%- endif -%}
-    </div>
+ <div class="pub-title">
+  {%- if entry.url -%}
+    <a href="{{ entry.url }}">{{- entry.title | markdownify | remove: '<p>' | remove: '</p>' | strip -}}</a>
+  {%- else -%}
+    {{ entry.title | markdownify | remove: '<p>' | remove: '</p>' | strip }}
+  {%- endif -%}
+</div>
 
     {%- comment -%} Authors {%- endcomment -%}
     <div class="pub-authors">
