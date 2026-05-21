@@ -70,6 +70,13 @@ ol.bibliography > li::marker {
   font-weight: bold;
 }
 
+.pub-title a,
+.pub-title a *,
+.pub-title a:hover,
+.pub-title a:hover * {
+  color: var(--global-theme-color);
+}
+
 /* Venue already wraps the journal/book name in <em>, which is
    italic by default — nothing to do. Just make sure nothing
    in the theme is un-italicizing it. */
