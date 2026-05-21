@@ -15,3 +15,4 @@ const openSearchModal = () => {
   }
   ninjaKeys.open();
 };
+window.openSearchModal = openSearchModal;
