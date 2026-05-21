@@ -5,7 +5,6 @@ title: music
 description: violin, viola, and listener
 nav: true
 nav_order: 7
-
 profile:
   align: right
   image: violin.jpg
