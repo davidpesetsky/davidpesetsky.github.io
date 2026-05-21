@@ -18,6 +18,5 @@ My two most notable contributions to music:
 	<li><a href="https://www.youtube.com/watch?v=Nbb539QZZXo">Subtitles for the film Lieutenant Kizhe (with music by Prokofiev)</a></li>
 </ul>
 
-![with Ken Hale and Elan Dresher at Chomsky's 50th, 1978](/assets/img/HalePesetskyDresher.jpg)
-{:.img-fluid}
+
 
