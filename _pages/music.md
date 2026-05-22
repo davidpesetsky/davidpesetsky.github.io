@@ -14,8 +14,8 @@ For over three decades, I have been principal second violin in the Newton (MA)-b
 
 My two most notable contributions to music:
 <ul>
-	<li><a href="/assets/pdf/April_1_Mahler_1.pdf">What Mahler really meant with all that German:</a> written for and distributed at an April 1 New Philharmonia rehearsal of Mahler's first symphony. (The players were suitably amused, but our conductor was in such a terrible mood that day.)  My stand partner's husband posted it to a conductor's discussion page, and it went viral — even ending up in the <a href="https://therestisnoise.com/no-eels/">blog</a> of the New Yorker's music critic.</li>
-	<li><a href="https://www.youtube.com/watch?v=Nbb539QZZXo">Subtitles for the film Lieutenant Kizhe</a> (with music by Prokofiev), a labor of love that I rashly undertook (it was very time-consuming!) when my orchestra programmed the famous suite made from the film music</li>
+	<li><a href="/assets/pdf/April_1_Mahler_1.pdf"><strong>What Mahler really meant with all that German:</strong></a> written for and distributed at an April 1 New Philharmonia rehearsal of Mahler's first symphony. The players were suitably amused, but our conductor Ron Kundsen was in a terrible mood that day.  My stand partner's husband posted it to a conductor's discussion page, and from there it went viral, even ending up in the <a href="https://therestisnoise.com/no-eels/">blog</a> of the New Yorker's music critic.</li>
+	<li><a href="https://www.youtube.com/watch?v=Nbb539QZZXo"><strong>Subtitles for the film <em>Lieutenant Kizhe></em></strong></a> (with music by Prokofiev), a labor of love that I rashly undertook (it was very time-consuming!) when my orchestra programmed the famous suite made from the film music</li>
 </ul>
 
 <div class="row mt-4">
