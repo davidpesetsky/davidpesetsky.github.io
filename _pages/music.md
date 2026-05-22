@@ -25,7 +25,6 @@ My two most notable contributions to music:
   <div class="col-md-4">
     <img class="img-fluid" src="/assets/img/pandemic_quartet.jpg" alt="Pandemic New Phil quartet" data-zoomable>
   </div>
-  </div>
    <div class="col-md-4">
     <img class="img-fluid" src="/assets/img/NPO_at_ShakeShack.jpg" alt="NewPhil plays Shake Shack" data-zoomable>
   </div>
