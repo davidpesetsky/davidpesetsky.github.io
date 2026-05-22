@@ -1,7 +1,7 @@
 ---
 layout: book
 title: Zero Syntax
-author: Mario Puzo
+author: David Pesetsky
 cover: assets/img/book_covers/Zero_Syntax_.jpg
 isbn: ISBN 0-262-16145-1
 buy_link: https://mitpress.mit.edu/9780262661003/zero-syntax/
