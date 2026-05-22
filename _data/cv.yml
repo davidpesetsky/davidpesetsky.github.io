@@ -1,10 +1,10 @@
 cv:
   name: David Pesetsky
-  email: pesetsk@mit.edu
-  location: Cambridge, MA, USA
+  email: "pesetsk usual-sign mit full-stop edu"
+  location: "Cambridge, MA (USA)""
   sections:
     Summary:
-      - linguist specializing in syntax
+      - "linguist specializing in syntax"
     Education:
       - institution: Yale University
         area: Linguistics
