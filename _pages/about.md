@@ -30,7 +30,7 @@ latest_posts:
 
 <small><small><i>This website is still being built. I hope to finish the task of building it over the coming weeks.  (May 22, 2026)</i> [05/2026]</small></small>
 
-I am a linguist specializing in syntax — the study of the laws that govern how sentences are composed from their constituent parts.
+I am a linguist specializing in <strong>syntax</strong> — the study of the laws that govern how sentences are composed from their constituent parts.
 
 Over the years, I have also made some contributions to the study of morphology (word structure), phonology (sound structure), language acquisition, and the interaction of syntax with semantics (how meanings are computed) -- as well as unpublished (entirely my fault) but frequently cited joint work with Jonah Katz on the relation between linguistic syntax and the syntax of tonal music. 
 
