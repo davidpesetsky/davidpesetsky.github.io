@@ -18,5 +18,6 @@ My two most notable contributions to music:
 	<li><a href="https://www.youtube.com/watch?v=Nbb539QZZXo">Subtitles for the film Lieutenant Kizhe (with music by Prokofiev)</a></li>
 </ul>
 
-
+![](/assets/img/HalePesetskyDresher.jpg)
+{:.img-fluid}
 
