@@ -14,7 +14,7 @@ For over three decades, I have been principal second violin in the Newton (MA)-b
 
 My two most notable contributions to music:
 <ul>
-	<li><a href="\assets\pdf\April_1_Mahler_1.pdf">What Mahler meant with all that German:</a> written for and distributed at an April 1 rehearsal of Mahler's first symphony</li>
+	<li><a href="/assets/pdf/April_1_Mahler_1.pdf">What Mahler meant with all that German:</a> written for and distributed at an April 1 rehearsal of Mahler's first symphony</li>
 	<li><a href="https://www.youtube.com/watch?v=Nbb539QZZXo">Subtitles for the film Lieutenant Kizhe (with music by Prokofiev)</a></li>
 </ul>
 

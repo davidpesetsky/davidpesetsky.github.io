@@ -134,3 +134,12 @@ h2.bibliography {
 .pub-links {
   font-size: 0.95rem;
 }
+
+/* Make bold/italic text inside links inherit the link color
+   instead of showing in default text color. */
+a strong,
+a em,
+a b,
+a i {
+  color: inherit;
+}
