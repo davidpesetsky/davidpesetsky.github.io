@@ -18,6 +18,14 @@ My two most notable contributions to music:
 	<li><a href="https://www.youtube.com/watch?v=Nbb539QZZXo">Subtitles for the film Lieutenant Kizhe (with music by Prokofiev)</a></li>
 </ul>
 
-![](/assets/img/HalePesetskyDresher.jpg)
-{:.img-fluid}
-
+<div class="row mt-4">
+  <div class="col-md-4">
+    <img class="img-fluid" src="/assets/img//assets/img/HalePesetskyDresher.jpg" alt="First">
+  </div>
+  <div class="col-md-4">
+    <img class="img-fluid" src="/assets/img/Victor_Jamie_Maggie.jpeg" alt="Second">
+  </div>
+  <div class="col-md-4">
+    <img class="img-fluid" src="/assets/img/pandemic_quartet .jpg" alt="Third">
+  </div>
+</div>
