@@ -143,3 +143,16 @@ a b,
 a i {
   color: inherit;
 }
+
+/* Shrink the about-page profile picture on phones */
+@media (max-width: 576px) {
+  .profile {
+    max-width: 60%;
+    margin: 0 auto;
+    display: block;
+  }
+  .profile img {
+    width: 100%;
+    height: auto;
+  }
+}
