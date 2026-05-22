@@ -20,17 +20,17 @@ My two most notable contributions to music:
 
 <div class="row mt-4">
   <div class="col-md-4">
-    <img class="img-fluid" src="/assets/img/HalePesetskyDresher.jpg" alt="First">
+    <img class="img-fluid" src="/assets/img/HalePesetskyDresher.jpg" alt="First" data-zoomable>
   </div>
   <div class="col-md-4">
-    <img class="img-fluid" src="/assets/img/Victor_Jamie_Maggie.jpeg" alt="Second">
+    <img class="img-fluid" src="/assets/img/Victor_Jamie_Maggie.jpeg" alt="Second" data-zoomable>
   </div>
 </div>
 <div class="row mt-4">
   <div class="col-md-4">
-    <img class="img-fluid" src="/assets/img/pandemic_quartet.jpg" alt="Third">
+    <img class="img-fluid" src="/assets/img/pandemic_quartet.jpg" alt="Third" data-zoomable>
   </div>
   <div class="col-md-4">
-    <img class="img-fluid" src="/assets/img/second_violins_NPO.jpg" alt="Fourth">
+    <img class="img-fluid" src="/assets/img/second_violins_NPO.jpg" alt="Fourth" data-zoomable>
   </div>
 </div>
