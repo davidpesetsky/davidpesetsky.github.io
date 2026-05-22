@@ -67,26 +67,19 @@ cv:
       - title: Professor honoris causa
         date: 2013-06
         awarder: University of Bucharest
-        url: 
         summary:
 
       - title: Fellow of the Linguistic Society of America (LSA)
-        authors:
-          - "Linguistic Society of America"
         date: 2012
         awarder: Linguistic Society of America
         summary:
 
       - title: Fellow of the American Association for the Advancement of Science (AAAS)
-        authors:
-          - "American Association for the Advancement of Science"
         date: 2010
         awarder: American Association for the Advancement of Science
         summary:
 
       - title: MacVicar Faculty Fellow
-        authors:
-          - "Massachusetts Institute of Technology"
         date: 2005
         awarder: Massachusetts Institute of Technology
         summary: for "outstanding teachers of undergraduate students"
