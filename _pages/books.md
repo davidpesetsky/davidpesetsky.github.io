@@ -31,7 +31,11 @@ nav_order: 3
           {% endif %}
         </h4>
         {% if book.subtitle %}<p class="text-muted mb-2"><em>{{ book.subtitle }}</em></p>{% endif %}
-        <p class="mb-1">{{ book.authors }}</p>
+        {% if book.authors %}
+	  <p class="mb-1">{{ book.authors }}</p>
+		{% elsif book.editors %}
+  			<p class="mb-1">{{ book.editors }} ({% if book.editors contains " and " %}eds.{% else %}ed.{% endif %})</p>
+			{% endif %}
         <p class="mb-1 text-muted">{{ book.publisher }}{% if book.year %}, {{ book.year }}{% endif %}</p>
         {% if book.description %}<p class="mt-2">{{ book.description }}</p>{% endif %}
         {% if book.links %}
