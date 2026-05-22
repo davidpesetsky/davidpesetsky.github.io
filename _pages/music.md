@@ -1,6 +1,6 @@
 ---
 layout: about
-name:
+show_name: false
 permalink: /music/
 title: music
 description: violin, viola, and listener
