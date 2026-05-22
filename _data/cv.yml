@@ -1,105 +1,76 @@
-cv:
-  name: David Pesetsky
-  label: still in progress - boilerplate refers to Einstein, who is not me
-  email: pesetsk usual-sign mit what-ends-a-sentence edu
-  location: 
-  image: ""
-  summary: linguist specializing in syntax
+name: David Pesetsky
+label: 
+email: 
+location: 
+image: ""
+summary: linguist specializing in syntax
 
-  social_networks:
-    - network: 
-      username: 
-    - network: 
-      username: 
-    - network: 
-      username: 
+address:
+  street: 32-D862 MIT
+  city: Cambridge
+  region: Massachusetts
+  postalCode: MA 02139
+  countryCode: US
 
-  address:
-    street: 32-D862 MIT
-    city: Cambridge
-    region: Massachusetts
-    postalCode: MA 02139
-    countryCode: US
+sections:
+  Education:
+    - institution: Yale University
+      location: New Haven, CT
+      url: 
+      area: Linguistics
+      studyType: B.A.
+      start_date: 1973
+      end_date: 1977
+      score: ""
+      courses: 
+      highlights:
 
-  sections:
-    Education:
-      - institution: Yale University
-        location: New Haven, CT
-        url: 
-        area: Linguistics
-        studyType: B.A.
-        start_date: 1973
-        end_date: 1977
-        score: ""
-        courses: 
-        highlights:
-         
+    - institution: Massachusetts Institute of Technology
+      location: Cambridge, MA (USA)
+      area: Linguistics
+      studyType: PhD
+      start_date: 1977
+      end_date: 1982
+      advisor: Noam Chomsky
+      committee: Noam Chomsky, Ken Hale, Morris Halle, James Higginbotham
 
-      - institution: Massachusetts Institute of Technology
-        location: Cambridge, MA (USA)
-        area: Linguistics
-        studyType: PhD
-        start_date: 1977
-        end_date: 1982
-        advisor: Noam Chomsky
-        committee: Noam Chomsky, Ken Hale, Morris Halle, James Higginbotham
-          
+  Experience:
+    - company: Massachusetts Institute of Technology
+      position: Ferrari P. Ward Professor (1999-); Professor (1994-1999); Associate Professor (1988-1994)
+      location: Cambridge, MA
+      start_date: 1988
+      end_date: 
+      summary: Section head (2011-2013); Department head (2013-2018)
 
-    Experience:
-      - company: Massachusetts Institute of Technology
-        position: Ferrari P. Ward Professor (1999-); Professor (1994-1999); Associate Professor (1988-1994)
-        location: Cambridge, MA
-        start_date: 1988
-        end_date: 
-        summary: Section head (2011-2013); Department head (2013-2018)
-    
+    - company: University of Massachusetts Amherst
+      position: Assistant Professor (1983-1987); Associate Professor (1987-1988)
+      location: Amherst, MA (USA)
+      start_date: 1983
+      end_date: 1988
 
-      - company: University of Massachusetts Amherst
-        position: Assistant Professor (1983-1987); Associate Professor (1987-1988)
-        location: Amherst, MA (USA)
-        start_date: 1983
-        end_date: 1988
+    - company: University of Southern California
+      position: Assistant Professor
+      location: Los Angeles, CA (USA)
+      start_date: 1982
+      end_date: 1983
 
+  Academic Honors:
+    - title: Professor honoris causa
+      date: 2013-06
+      awarder: University of Bucharest
+      summary:
 
-      - company: University of Southern California
-        position: Assistant Professor
-        location: Los Angeles, CA (USA)
-        start_date: 1982
-        end_date: 1983
-
-    Academic Honors:
-      - title: Professor *honoris causa*
-        date: 2013-06
-        awarder: University of Bucharest
-        url: 
-        summary:
-
-      - title: Fellow of the Linguistic Society of America (LSA)
-        authors:
-          - "Linguistic Society of America"
-        date: 2012
-        awarder: Linguistic Society of America
-        summary:
-        
-    - title: Fellow of the American Association for the Advancement of Science (AAAS)
-        authors:
-          - " American Association for the Advancement of Science"
-        date: 2010
-        awarder: American Association for the Advancement of Science
-        summary:
-        
-        
-     - title: MacVicar Faculty Fellow
-        authors:
-          - "Massachusetts Institute of Technology"
-        date: 2005
-        awarder: Massachusetts Institute of Technology
-        summary: for "outstanding teachers of undergraduate students"
-        
     - title: Fellow of the Linguistic Society of America (LSA)
-        authors:
-          - "Linguistic Society of America"
-        date: 2012
-        awarder: Linguistic Society of America
-        summary:
-    
+      date: 2012
+      awarder: Linguistic Society of America
+      summary:
+
+    - title: Fellow of the American Association for the Advancement of Science (AAAS)
+      date: 2010
+      awarder: American Association for the Advancement of Science
+      summary:
+
+    - title: MacVicar Faculty Fellow
+      date: 2005
+      awarder: Massachusetts Institute of Technology
+      summary: for "outstanding teachers of undergraduate students"
