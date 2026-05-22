@@ -3,8 +3,6 @@ cv:
   email: "pesetsk usual-sign mit full-stop edu"
   location: "Cambridge, MA (USA)""
   sections:
-    Summary:
-      - "linguist specializing in syntax"
     Education:
       - institution: Yale University
         area: Linguistics
