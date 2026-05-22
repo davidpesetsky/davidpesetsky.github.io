@@ -38,7 +38,10 @@ cv:
         start_date: 1982
         end_date: 1983
     Academic honors:
-      - bullet: "*Professor honoris causa*, University of Bucharest (2013)"
+      - bullet: "Professor *honoris causa*, University of Bucharest (2013)"
       - bullet: "Fellow of the Linguistic Society of America (2012)"
       - bullet: "Fellow of the American Association for the Advancement of Science (2010)"
       - bullet: "MacVicar Faculty Fellow, MIT (2005) — for 'outstanding teachers of undergraduate students'"
+      - bullet: "Portsmouth, New Hampshire, Educational Partnership Award (1998)"
+      - bullet: "Graduate Student Council Graduate Teaching Award, MIT (1990 and 1993)"
+      - bullet: "Phi Beta Kappa, Yale University (1977)"
