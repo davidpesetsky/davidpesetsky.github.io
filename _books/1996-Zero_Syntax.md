@@ -3,7 +3,7 @@ title: Zero Syntax
 authors: David Pesetsky
 publisher: MIT Press
 year: 1996
-cover: assets/img/book_covers/Zero_Syntax.png
+cover: /assets/img/book_covers/Zero_Syntax.png
 url: 
 links:
   - label: Publisher
