@@ -8,7 +8,7 @@ cv:
     Education:
       - institution: Yale University
         area: Linguistics
-        degree: B.A.
+        degree: B.A. summa cum laude
         location: New Haven, CT
         start_date: 1973
         end_date: 1977
@@ -20,7 +20,7 @@ cv:
         end_date: 1982
         highlights:
           - "Advisor: Noam Chomsky"
-          - "Committee: Noam Chomsky, Ken Hale, Morris Halle, James Higginbotham"
+          - "Committee: Noam Chomsky, Ken Hale, Morris Halle, and James Higginbotham"
     Experience:
       - company: Massachusetts Institute of Technology
         position: Ferrari P. Ward Professor (1999-); Professor (1994-1999); Associate Professor (1988-1994)
