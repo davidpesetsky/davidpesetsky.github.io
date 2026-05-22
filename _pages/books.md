@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: books
 title: books
 permalink: /books/
 nav: true
