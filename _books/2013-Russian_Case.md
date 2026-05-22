@@ -4,9 +4,9 @@ authors: David Pesetsky
 publisher: MIT Press
 year: 2013
 cover: /assets/img/books/Russian_Case.png
-url: https://mitpress.mit.edu/9780262519618/russian-case-morphology-and-the-syntactic-categories/
+url: https://direct.mit.edu/books/monograph/3384/Russian-Case-Morphology-and-the-Syntactic
 description:
 links:
   - label: Publisher
-    url: https://mitpress.mit.edu/9780262519618/
+    url: https://direct.mit.edu/books/monograph/3384/Russian-Case-Morphology-and-the-Syntactic
 ---

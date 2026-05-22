@@ -4,9 +4,9 @@ authors: David Pesetsky
 publisher: MIT Press
 year: 1996
 cover: /assets/img/books/Zero_Syntax.png
-url: 
+url: https://mitpress.mit.edu/9780262661003/zero-syntax/
 links:
   - label: Publisher
-    url: https://mitpress.mit.edu/9780262519618/
+    url: https://mitpress.mit.edu/9780262661003/zero-syntax/
 ---
 
