@@ -6,7 +6,6 @@ nav: true
 collection: books
 nav_order: 3
 ---
-
 <div class="row">
   {% for book in site.books reversed %}
     <div class="col-sm-6 col-md-4 mb-4">
