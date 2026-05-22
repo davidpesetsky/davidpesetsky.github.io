@@ -2,7 +2,7 @@
 layout: book
 title: Zero Syntax
 author: David Pesetsky
-cover: assets/img/book_covers/Zero_Syntax_.png
+cover: assets/img/book_covers/Zero_Syntax.png
 isbn: ISBN 0-262-16145-1
 buy_link: https://mitpress.mit.edu/9780262661003/zero-syntax/
 released: 1996
