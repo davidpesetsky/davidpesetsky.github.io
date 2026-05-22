@@ -20,17 +20,18 @@ My two most notable contributions to music:
 
 <div class="row mt-4">
   <div class="col-md-4">
-    <img class="img-fluid" src="/assets/img/HalePesetskyDresher.jpg" alt="First" data-zoomable>
+    <img class="img-fluid" src="/assets/img/Victor_Jamie_Maggie.jpeg" alt="Quartet with Jamie, Victor, and Maggie" data-zoomable>
   </div>
   <div class="col-md-4">
-    <img class="img-fluid" src="/assets/img/Victor_Jamie_Maggie.jpeg" alt="Second" data-zoomable>
-  </div>
-</div>
-<div class="row mt-4">
-  <div class="col-md-4">
-    <img class="img-fluid" src="/assets/img/pandemic_quartet.jpg" alt="Third" data-zoomable>
+    <img class="img-fluid" src="/assets/img/pandemic_quartet.jpg" alt="Pandemic New Phil quartet" data-zoomable>
   </div>
   <div class="col-md-4">
-    <img class="img-fluid" src="/assets/img/second_violins_NPO.jpg" alt="Fourth" data-zoomable>
+    <img class="img-fluid" src="/assets/img/CMCbadge.jpeg" alt="CMC badge" data-zoomable>
+  </div>  
+  <div class="col-md-4">
+    <img class="img-fluid" src="/assets/img/second_violins_NPO.jpg" alt="New Phil mighty second violins" data-zoomable>
+  </div>
+   <div class="col-md-4">
+    <img class="img-fluid" src="/assets/img/HalePesetskyDresher.jpg" alt="Ken Hale, Elan Dresher, David Pesetsky 1978 Chomsky's 50th" data-zoomable>
   </div>
 </div>
