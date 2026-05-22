@@ -12,10 +12,16 @@ nav_order: 3
   {% for book in sorted_books %}
     <div class="row mb-4 align-items-start">
       <div class="col-md-3 col-sm-4 col-5 mb-3">
-        {% if book.cover %}
-          <img class="img-fluid rounded shadow-sm" src="{{ book.cover | relative_url }}" alt="{{ book.title }}">
-        {% endif %}
-      </div>
+  {% if book.cover %}
+    {% if book.url %}
+      <a href="{{ book.url }}" target="_blank" rel="noopener">
+        <img class="img-fluid rounded shadow-sm" src="{{ book.cover | relative_url }}" alt="{{ book.title }}">
+      </a>
+    {% else %}
+      <img class="img-fluid rounded shadow-sm" src="{{ book.cover | relative_url }}" alt="{{ book.title }}">
+    {% endif %}
+  {% endif %}
+</div>
       <div class="col-md-9 col-sm-8 col-7">
         <h4 class="mb-1">
           {% if book.url %}
