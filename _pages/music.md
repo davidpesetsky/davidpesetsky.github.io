@@ -26,6 +26,9 @@ My two most notable contributions to music:
     <img class="img-fluid" src="/assets/img/Victor_Jamie_Maggie.jpeg" alt="Second">
   </div>
   <div class="col-md-4">
-    <img class="img-fluid" src="/assets/img/pandemic_quartet .jpg" alt="Third">
+    <img class="img-fluid" src="/assets/img/pandemic_quartet.jpg" alt="Third">
+  </div>
+  <div class="col-md-4">
+    <img class="img-fluid" src="/assets/img/second_violins_NPO.jpg" alt="Fourth">
   </div>
 </div>
