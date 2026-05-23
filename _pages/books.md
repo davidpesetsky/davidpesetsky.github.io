@@ -2,7 +2,7 @@
 layout: page
 permalink: /books/
 title: books
-description: authored and edited volumes
+description: authored and edited volumes (and Festschrift!)
 nav: true
 nav_order: 3
 ---
