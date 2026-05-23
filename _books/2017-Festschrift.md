@@ -1,5 +1,5 @@
 ---
-title: A Pesky Set: Papers for David Pesetsky
+title: A Pesky Set - Papers for David Pesetsky
 authors: 
 editors: Claire Halpert, Hadas Kotek, Coppe van Urk
 publisher: MIT Working Papers in Linguistics
