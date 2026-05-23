@@ -4,7 +4,7 @@ authors: David Pesetsky
 publisher: MIT Press
 year: 2000
 cover: /assets/img/books/Phrasal_Movement.png
-url: https://direct.mit.edu/books/monograph/2715/Phrasal-Movement-and-Its-Kin
+link: https://direct.mit.edu/books/monograph/2715/Phrasal-Movement-and-Its-Kin
 description:
 links:
   - label: Publisher

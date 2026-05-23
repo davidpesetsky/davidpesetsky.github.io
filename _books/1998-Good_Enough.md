@@ -5,7 +5,7 @@ editors: Pilar Barbosa, Daniel Fox, Paul Hagstrom, Martha McGinnis and David Pes
 publisher: MIT Press
 year: 1998
 cover: /assets/img/books/Good_Enough.png
-url: https://mitpress.mit.edu/9780262522496/is-the-best-good-enough-optimality-and-competition-in-syntax/
+link: https://mitpress.mit.edu/9780262522496/is-the-best-good-enough-optimality-and-competition-in-syntax/
 description:
 links:
   - label: Publisher
