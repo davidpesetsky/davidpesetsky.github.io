@@ -39,7 +39,7 @@ My two most notable contributions to music:
     <img class="img-fluid" src="/assets/img/HalePesetskyDresher.jpg" alt="Ken Hale, Elan Dresher, David Pesetsky 1978 Chomsky's 50th" data-zoomable>
   </div>
      <div class="col-md-4">
-	<video width="25%" height="auto" controls class="img-fluid rounded z-depth-1">
+	<video class="img-fluid rounded z-depth-1">
   		<source src="{{ '/assets/video/Schumann.mp4' | relative_url }}" type="video/mp4">
   		Your browser does not support the video tag.
 	</video>
