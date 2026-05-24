@@ -2,11 +2,11 @@
 layout: page
 permalink: /publications/
 title: papers
-description: in reverse chronological order
+description: in reverse chronological order: includes published and unpublished papers, as well as some talk handouts
 nav: true
 nav_order: 2
 ---
-includes published and unpublished material, including some talk handouts
+
 
 {% include bib_search.liquid %}
 
