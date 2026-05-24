@@ -17,7 +17,7 @@
     {%- comment -%} Title {%- endcomment -%}
 <div class="pub-title{% if entry.url %} pub-title-linked{% endif %}">
   {%- if entry.url -%}
-    <a href="{{ entry.url }}">{{- entry.title | markdownify | remove: '<p>' | remove: '</p>' | strip -}}</a>
+<a href="TEST">[RAW URL: {{ entry.url }}]{{- entry.title | markdownify | remove: '<p>' | remove: '</p>' | strip -}}</a>
   {%- else -%}
     {{ entry.title | markdownify | remove: '<p>' | remove: '</p>' | strip }}
   {%- endif -%}
