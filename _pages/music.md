@@ -38,6 +38,7 @@ My two most notable contributions to music:
    <div class="col-md-4">
     <img class="img-fluid" src="/assets/img/HalePesetskyDresher.jpg" alt="Ken Hale, Elan Dresher, David Pesetsky 1978 Chomsky's 50th" data-zoomable>
   </div>
+  {% include video.html path="assets/video/Schumann.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
 </div>
-{% include video.html path="assets/video/Schumann.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+
 
