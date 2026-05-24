@@ -357,7 +357,7 @@ external_links:
   rel: external nofollow noopener
   target: _blank
   exclude:
-
+    - /publications/
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
 # -----------------------------------------------------------------------------
