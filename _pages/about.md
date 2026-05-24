@@ -28,7 +28,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<small><small><i>This website is still being built. I hope to finish the task of building it over the coming weeks.  (May 22, 2026)</i> [05/2026]</small></small>
+<small><small><i>This website is still being built. I hope to finish the task of building it over the coming weeks. </i> [05/2026]</small></small>
 
 I am a linguist specializing in <strong>syntax</strong> — the study of the laws that govern how sentences are composed from their constituent parts in the languages of the world.  
 
