@@ -29,13 +29,11 @@ My two most notable contributions to music:
     <img class="img-fluid" src="/assets/img/second_violins_NPO.jpg" alt="New Phil mighty second violins" data-zoomable>
   </div>
   <div class="col-md-4">
-    <div style="max-width: 67%; margin-left: auto;">
-      <img class="img-fluid mb-2" src="/assets/img/NPO_at_ShakeShack.jpg" alt="NewPhil plays Shake Shack" data-zoomable>
-      <img class="img-fluid mb-2" src="/assets/img/HalePesetskyDresher.jpg" alt="Ken Hale, Elan Dresher, David Pesetsky 1978 Chomsky's 50th" data-zoomable>
-      <video class="img-fluid" controls>
-        <source src="/assets/videos/Schumann.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </div>
+    <img class="img-fluid mb-3" src="/assets/img/NPO_at_ShakeShack.jpg" alt="NewPhil plays Shake Shack" data-zoomable>
+    <img class="img-fluid mb-3" src="/assets/img/HalePesetskyDresher.jpg" alt="Ken Hale, Elan Dresher, David Pesetsky 1978 Chomsky's 50th" data-zoomable>
+    <video class="img-fluid" controls>
+      <source src="/assets/videos/Schumann.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
   </div>
 </div>
