@@ -6,6 +6,7 @@ description: in reverse chronological order
 nav: true
 nav_order: 2
 ---
+includes published and unpublished material, including some talk handouts
 
 {% include bib_search.liquid %}
 
