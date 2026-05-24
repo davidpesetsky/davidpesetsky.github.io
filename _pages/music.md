@@ -31,7 +31,7 @@ My two most notable contributions to music:
   <div class="col-md-4">
     <img class="img-fluid mb-3" src="/assets/img/NPO_at_ShakeShack.jpg" alt="NewPhil plays Shake Shack" data-zoomable>
     <img class="img-fluid mb-3" src="/assets/img/HalePesetskyDresher.jpg" alt="Ken Hale, Elan Dresher, David Pesetsky 1978 Chomsky's 50th" data-zoomable>
-    <video class="img-fluid" controls>
+    <video class="img-fluid" controls preload="metadata">
       <source src="/assets/video/Schumann.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
