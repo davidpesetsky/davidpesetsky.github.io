@@ -10,7 +10,7 @@ description:
 links:
   - label: Publisher
     url: http://mitwpl.mit.edu/catalog/mwpl80/
-  - label: PDF download (with permission of publisher)
+links:    
+  - label: PDF download (with permission)
     url: /assets/pdf/2017_Halpert_Kotek_van-Urk_eds.;_A_Pesky_Set.pdf
-
 ---
