@@ -7,6 +7,6 @@ cover: /assets/img/books/Phrasal_Movement.png
 link: https://direct.mit.edu/books/monograph/2715/Phrasal-Movement-and-Its-Kin
 description:
 links:
-  - label: Publisher
+  - label: Publisher (open access link)
     url: https://direct.mit.edu/books/monograph/2715/Phrasal-Movement-and-Its-Kin
 ---
