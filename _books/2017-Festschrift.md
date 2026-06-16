@@ -8,8 +8,8 @@ cover: /assets/img/books/Festschrift.png
 link: http://mitwpl.mit.edu/catalog/mwpl80/
 description:
 links:
-  - label: Publisher link |
+  - label: Publisher link
     url: http://mitwpl.mit.edu/catalog/mwpl80/
-  - label: | PDF download (with permission)
+  - label: PDF download (with permission)
     url: /assets/pdf/2017_Halpert_Kotek_van-Urk_eds.;_A_Pesky_Set.pdf
 ---
